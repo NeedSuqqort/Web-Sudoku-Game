@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>Sudoku Testing Build</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="event.js"></script>
+    </head>
+    <body>
+        <h1>Sudoku game by NeedSupport version 1.0</h1>
+        <hr>
+        <span id="portal" onclick="openNav()">&#9776 Select Difficulty</span>
+        <h2 id="debug">Solve the sudoko as fast as you can!</h2>
+        <div id="wintext"></div>
+        <button id="solve" onclick="show_solution()">Auto solve</button>
+        <button id="newgame" onclick="restart()">New game</button>
+        <button id="darkmode" onclick="toggledark()">Colored background</button>
+        <button id="reset" onclick="resetboard()">Reset board</button>
+        <div id="dif-menu" class="menu">
+            <a href="#" class="closedmenu" onclick="closeNav()">&times</a>
+            <a href="#" onclick="changeDiff(1)">Easy</a>
+            <a href="#" onclick="changeDiff(2)">Medium</a>
+            <a href="#" onclick="changeDiff(3)">Hard</a>
+        </div>
+        <div id="timer">Time Elapsed: 00:00</div>
+        <div id="board"></div>
+        <br>
+        <div id="digits"></div>
+    </body>
+</html>
