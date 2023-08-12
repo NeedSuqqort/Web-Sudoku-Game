@@ -4,3 +4,7 @@
 
 # Maybe add new features later to practice my coding skills.
 
+# 2023/8/12 Edit: Python version also uploaded. 
+
+# Any advice on my codes would be appreciated.
+
