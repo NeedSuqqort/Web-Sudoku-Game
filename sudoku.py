@@ -57,5 +57,11 @@ def solve(i,j):
         board[i][j] = 0
     return False
 
-solve(0,0)
-PrintBoard()
+def handleInput():
+    pass
+
+def generate_board():
+    pass
+
+def main():
+    pass
